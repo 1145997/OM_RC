@@ -8,7 +8,7 @@ extern "C" {
 #include <esp_now.h>
 
 // ==== 你自己的全局（一般放在 .h）====
-uint8_t slaveMac[] = {0x20, 0x6E, 0xF1, 0xD6, 0x1E, 0xB8};
+uint8_t slaveMac[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00}; // Replace with receiver STA MAC
 typedef struct {
   int value;
 } DataPacket;
